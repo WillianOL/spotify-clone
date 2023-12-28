@@ -1,0 +1,31 @@
+.botoes_conteiner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  button {
+    font-weight: 700;
+    font-size: 0.88rem;
+    line-height: 1.4rem;
+    cursor: pointer;
+    transition: all .2s ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  button.signup {
+    color: var(--corTextoInfo);
+    background-color: transparent;
+    &:hover {
+      color: var(--corLetrasDestaque);
+    }
+  }
+
+  button.login {
+    background-color: var(--corLetrasDestaque);
+    padding: 0.69rem 1.5rem;
+    border-radius: 1.69rem;
+    color: var(--corFundo);
+  }
+}

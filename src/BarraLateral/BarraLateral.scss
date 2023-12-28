@@ -1,0 +1,14 @@
+.barraLateral {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  min-height: 100vh;
+  background-color: var(--corFundo);
+  color: var(--corLetras);
+}
+
+@media (max-width: 700px) {
+  .barraLateral{
+    display: none !important;
+  }
+}

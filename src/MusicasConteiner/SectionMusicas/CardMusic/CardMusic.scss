@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.07rem;
+  padding: 0.8rem 0.8rem 1.07rem 0.8rem;
+  background-color: #161616;
+  border-radius: 0.32rem;
+  width: 13rem;
+  height: 18rem;
+  position: relative;
+  cursor: pointer;
+  transition: all .1s ease;
+
+  img {
+    width: 10rem;
+    border-radius: 0.32rem;
+    box-shadow: 0px 0px 21.465px 0px rgba(5, 5, 5, 0.61);
+  }
+
+  &>div {
+    h2 {
+      font-size: 0.96rem;
+      font-weight: 800;
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      font-size: 0.78rem;
+      color: var(--corLetras);
+      font-weight: 600;
+      line-height: 1.2rem;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+  }
+}

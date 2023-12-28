@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;700;800&display=swap'); 
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+:root {
+  --corFundo: #000;
+  --corLetrasDestaque: #FFF;
+  --corLetras: #fcfcfc98;
+  --corTextoInfo: #767676;
+  --corHeader: #101010;
+}
+
+body {
+  height: 100vh;
+  display: block;
+  justify-content: flex-start;
+  position: relative;
+  div#root {
+    display: flex;
+    width: 100%;
+  }
+}
+
+// Responsivo
+@mixin responsivo($tela) {
+  @media(max-width: $tela) {
+    @content
+  }
+}

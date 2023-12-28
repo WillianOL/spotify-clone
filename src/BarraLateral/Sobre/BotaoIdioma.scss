@@ -1,0 +1,15 @@
+.botao_idioma button {
+  display: flex;
+  align-items: center;
+  gap: 0.19rem;
+  font-weight: 700;
+  border-radius: 6.19rem;
+  padding: 0.31rem 0.81rem;
+  background-color: transparent;
+  border: 1px solid var(--corLetras);
+  color: var(--corLetrasDestaque);
+  cursor: pointer;
+  svg {
+    font-size: 1rem;
+  }
+}

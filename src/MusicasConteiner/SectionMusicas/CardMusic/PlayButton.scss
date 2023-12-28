@@ -1,0 +1,38 @@
+.botao_play {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 120px;
+  right: 30px;
+  font-size: 1.2rem;
+  background-color: #1ED760;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .2s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.card {
+  &:hover .botao_play {
+    display: flex;
+    animation: mostrarBotaoPlay .2s ease;
+  }
+}
+
+
+@keyframes mostrarBotaoPlay {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(0px);
+  }
+}

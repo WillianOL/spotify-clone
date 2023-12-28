@@ -1,0 +1,53 @@
+.musics_conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+  width: 100%;
+
+  section {
+    padding: 0px 1.88rem;
+    color: var(--corLetrasDestaque);
+    width: 100%;
+
+    ul {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none;
+    }
+  }
+}
+
+.sectionMusic {
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+
+    h1 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+
+    span {
+      font-size: 0.75rem;
+      color: var(--corTextoInfo);
+    }
+  }
+
+  ul {
+    padding-bottom: 5px;
+    overflow-x: scroll;
+    &::-webkit-scrollbar{
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 20px;
+      height: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.185);
+      border-radius: 20px;
+    }
+  }
+}

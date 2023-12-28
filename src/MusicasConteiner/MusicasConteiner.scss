@@ -1,0 +1,9 @@
+.musicas_conteiner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+  background: linear-gradient(180deg, #1F1F1F 8%, #111 41.11%, #111 99.95%);
+  overflow-x: hidden;
+}
