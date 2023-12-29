@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Logo.scss"
+import logo from "./img/spotifyLogo.svg"
 
 const Logo = () => {
   return (
     <div className='conteinerLogo'>
-      <img src="../../../public/img/spotifyLogo.svg" alt="Spotify Logo" />
+      <img src={logo} alt="Spotify Logo" />
     </div>
   )
 }
