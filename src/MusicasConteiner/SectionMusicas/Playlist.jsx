@@ -2,6 +2,12 @@ import React from 'react'
 import CardMusic from './CardMusic/CardMusic'
 import "./SectionMusic.scss"
 
+import img1 from "./imgs/img-playList/playlist-01.png"
+import img2 from "./imgs/img-playList/playlist-02.png"
+import img3 from "./imgs/img-playList/playlist-03.png"
+import img4 from "./imgs/img-playList/playlist-04.png"
+import img5 from "./imgs/img-playList/playlist-05.png"
+
 const Playlist = ({ titulo }) => {
   return (
     <section className='sectionMusic'>
@@ -11,27 +17,27 @@ const Playlist = ({ titulo }) => {
       </div>
       <ul>
       <CardMusic
-          img="../../../public/img-playList/playlist-01.png"
+          img={img1}
           titulo="Today’s Top Hits"
           descricao="Harry Styles is on top of the Hottest 50!"
         />
         <CardMusic
-          img="../../../public/img-playList/playlist-02.png"
+          img={img2}
           titulo="RapCaviar"
           descricao="New music from Lil Baby, Gucci Mane and DaBaby."
         />
         <CardMusic
-          img="../../../public/img-playList/playlist-03.png"
+          img={img3}
           titulo="All Out 2010s"
           descricao="The biggest songs of the 2010s."
         />
         <CardMusic
-          img="../../../public/img-playList/playlist-04.png"
+          img={img4}
           titulo="Rock Classics"
           descricao="Rock legends & epic songs that continue to inspire..."
         />
         <CardMusic
-          img="../../../public/img-playList/playlist-05.png"
+          img={img5}
           titulo="Chill Hits"
           descricao="Kick back to the best new and recent chill hits."
         />
