@@ -10,7 +10,7 @@
   height: 18rem;
   position: relative;
   cursor: pointer;
-  transition: all .1s ease;
+  transition: all 0.1s ease;
 
   img {
     width: 10rem;
@@ -18,7 +18,7 @@
     box-shadow: 0px 0px 21.465px 0px rgba(5, 5, 5, 0.61);
   }
 
-  &>div {
+  & > div {
     h2 {
       font-size: 0.96rem;
       font-weight: 800;
