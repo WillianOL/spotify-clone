@@ -6,7 +6,7 @@ import MusicasConteiner from "./MusicasConteiner/MusicasConteiner"
 function App() {
   return (
     <>
-      <BarraLateral ativo={false} />
+      <BarraLateral />
       <MusicasConteiner />
     </>
   )

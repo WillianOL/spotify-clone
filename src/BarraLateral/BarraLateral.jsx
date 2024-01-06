@@ -5,9 +5,9 @@ import ListaNav from "./ListaNavegacao/ListaNav";
 import Sobre from "./Sobre/Sobre";
 
 
-const BarraLateral = ({ ativo }) => {
+const BarraLateral = () => {
   return (
-    <aside className="barraLateral" style={{display: ativo ? "none" : "flex"}} >
+    <aside className="barraLateral" >
       <Logo />
       <ListaNav />
       <Sobre />
