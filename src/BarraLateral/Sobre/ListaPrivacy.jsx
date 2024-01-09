@@ -1,23 +1,26 @@
 import React from 'react';
 import './ListaPrivacy.scss';
 
-const listaItens = [
-  ['Legal', 'Privacy Center', 'Privacy Policy'],
-  ['Cookies', 'About', 'Ads'],
-];
-
 const ListaPrivacy = () => {
-  const lista = listaItens.map((item) => {
-    return (
-      <li key={item[0]}>
-        {item.map((itemList, index) => (
-          <p key={itemList[index]}>{itemList}</p>
-        ))}
-      </li>
-    );
-  });
+  // Lista de itens para serem adicionados
+  const listaItens = [
+    ['Legal', 'Privacy Center', 'Privacy Policy'],
+    ['Cookies', 'About', 'Ads'],
+  ];
 
-  return <ul className="privacy_conteiner">{lista}</ul>;
+  return (
+    <ul className="privacy_conteiner">
+      {listaItens.map((lista) => {
+        return (
+          <li key={lista}>
+            {lista.map((itemLista) => {
+              return <p key={itemLista}>{itemLista}</p>;
+            })}
+          </li>
+        );
+      })}
+    </ul>
+  );
 };
 
 export default ListaPrivacy;
