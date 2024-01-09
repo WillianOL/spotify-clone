@@ -82,7 +82,25 @@
 			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/5ab9cced-e67a-4e5a-b42e-88fbed033ee8" width="650px">
   		</div>
 	</div>
+	<div>
+		<h4>Sobre</h4>
+		<p>O sobre retorna uma section com dois componentes, a lista de itens do sobre <strong>ListaPrivacy</strong> e o botão de troca de idioma <strong>BotaoIdioma</strong>. O botão recebe a prop idioma.</p>
+		<div align="center">
+			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/1061f4a9-55dd-4444-ac8e-e19ff6185963" width="650px">
+  		</div>
+		&nbsp;
+		<p>O botão é simples, apenas recebendo a propriedade idioma e retornando um button com o idioma nele. E junto colocando um icone do react-icons.</p>
+		<div align="center">
+			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/589539ce-1608-4721-8fac-56f790668a1e" width="650px">
+  		</div>
+		&nbsp;
+		<p>Para a construção da lista, defini um array que contem dois arrays dos itens que vão ser exibidos. E no return do componente defini uma ul e dentro dela realizei map da lista. Dentro do map, retornei uma li e dentro dela realizei outro map com o argumento da interação anterior(que no caso é a lista de itens). A partir disso, no map da li retornei um p para cada item da array. Finalizando a construção da lista.</p>
+		<div align="center">
+			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/54aadfcc-2c72-42a6-94b4-fe8d2be0d15a" width="650px">
+  		</div>
+	</div>
 </div>
+
 
 
 
