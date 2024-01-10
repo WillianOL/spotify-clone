@@ -99,7 +99,42 @@
 			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/54aadfcc-2c72-42a6-94b4-fe8d2be0d15a" width="650px">
   		</div>
 	</div>
+	&nbsp;
+	<div>
+		<h3>Vitrine de playlists - Grid das músicas</h2>
+		<p>O conponente da grid das músicas <strong>musicasConteiner</strong> retorna uma main e foi dividido em dois componentes. Um é o Header e o outro é a SectionMusic onde ficam as listas das playlists.</p>
+		<div align="center">
+			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/0250a340-a62d-4bd8-9423-a88fe4ff3c40" width="650px">
+			<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/24464723-0a6a-4ff5-81f7-dc3372e8c866" width="250px">
+  		</div>
+		<div>
+			<h4>Header</h4>
+			<p>O Header possui três componentes em sua composição.</p>
+			<ul>
+				<li>ButtonMobile - Botão para abrir a sidebar em aparelhos mobile;</li>
+				<li>BotoesLogin - Botões de login e registro no header;</li>
+				<li>MenoMobile - sidebar para mobile(menu mobile);</li>
+			</ul>
+			<p>Para a funcionalidade do menu mobile, utilizei o hook useState para definir um estado que começa como false [ativo, setAtivo]. Depois, passei o <strong>ativo</strong> e <strong>setAtivo</strong> como prop no componente ButtonMobile e passei a variável ativo no menuMobile.</p>
+			<div align="center">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/f5cdd543-cc6f-40b0-b634-c907a708066a" width="650px">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/4d51f70c-2beb-46de-a0c9-ffcd16101396" width="250px">
+  			</div>
+			&nbsp;
+			<p>No componente ButtonMobile, retorna um botão que tem um evento de click adicionado a ele. Quando o botão é clicado a função abrirMenu é executada e nele a função modificadora de estado(setAtivo) muda o estado do ativo para o contrario dele, dessa forma se for true muda pra false e assim por diante. Resolvi passar a variável de estado junto pois com ela irei mudar o icone do botão do menu para um X ou os três traços.</p>
+			<div align="center">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/47b0ccd9-494f-46c8-9fd2-93b929bf2ffc" width="650px">
+  			</div>
+		</div>
+	</div>
 </div>
+
+
+
+
+
+
+
 
 
 
