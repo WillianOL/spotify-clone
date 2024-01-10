@@ -125,9 +125,22 @@
 			<div align="center">
 				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/47b0ccd9-494f-46c8-9fd2-93b929bf2ffc" width="650px">
   			</div>
+			&nbsp;
+			<p>O componente MenuMobile retorna uma div que contem o componente ListaNav(lista de botões da sidebar). Para a funcionalidade, a variável de estado ativo foi passada como prop e no style o display muda de acordo com o valor de ativo entre flex e none. Assim, quando o botão do menu mobile é clicado o estado é modificado e interage com o MenuMobile.</p>
+			<div align="center">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/e7d5a0dc-a35d-4bf1-bb11-256b0e5a35b3" width="650px">
+  			</div>
+			<h4>Resultado</h4>
+			<div align="center">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/1f790908-8f9e-4ab1-818f-62ce057e0c99" width="750px">
+				<img align="center" src="https://github.com/WillianOL/spotify-clone/assets/112639055/0c8fce3c-668a-4980-9b2a-12399f77a966" width="250px">
+  			</div>
 		</div>
 	</div>
 </div>
+
+
+
 
 
 
